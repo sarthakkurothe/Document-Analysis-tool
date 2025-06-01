@@ -22,8 +22,17 @@ A two-agent system for analyzing and improving MoEngage documentation using Goog
 git clone https://github.com/sarthakkurothe/Document-Analysis-tool
 cd Document-Analysis-tool-main
 ```
+### 2. Setting up the virtual environment
 
-### 2. Install Dependencies
+```
+python -m venv venv
+```
+
+```
+venv/scripts/activate
+```
+
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -37,7 +46,7 @@ google-generativeai
 python-dotenv
 ```
 
-### 3. Set Up Environment Variables
+### 4. Set Up Environment Variables
 Create a `.env` file in the project root:
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -45,20 +54,10 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 **⚠️ Important**: Never commit your `.env` file to version control. Add it to your `.gitignore`.
 
-### 4. Get Your Gemini API Key
+### 5. Get Your Gemini API Key
 1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Create a new API key
 3. Copy the key to your `.env` file
-
-### 5. Setting up the virtual environment
-
-```
-python -m venv venv
-```
-
-```
-venv/scripts/activate
-```
 
 ## 🏃‍♂️ Usage
 
