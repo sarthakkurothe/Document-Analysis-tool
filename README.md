@@ -19,8 +19,8 @@ A two-agent system for analyzing and improving MoEngage documentation using Goog
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd moengage-doc-analyzer
+git clone https://github.com/sarthakkurothe/Document-Analysis-tool
+cd Document-Analysis-tool-main
 ```
 
 ### 2. Install Dependencies
@@ -49,6 +49,16 @@ GEMINI_API_KEY=your_gemini_api_key_here
 1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Create a new API key
 3. Copy the key to your `.env` file
+
+### 5. Setting up the virtual environment
+
+```
+python -m venv venv
+```
+
+```
+venv/scripts/activate
+```
 
 ## 🏃‍♂️ Usage
 
@@ -181,10 +191,6 @@ moengage-doc-analyzer/
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
 
