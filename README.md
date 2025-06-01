@@ -151,37 +151,49 @@ moengage-doc-analyzer/
 
 ## 📊 Example Outputs
 
-### Example 1: MoEngage Integration Guide Analysis
+### Example 1: MoEngage Create Campaigns API - Documentation Analysis
 
-**URL Analyzed**: `https://help.moengage.com/hc/en-us/articles/...`
+**URL Analyzed**: `https://developers.moengage.com/hc/en-us/articles/27896715162516-Create-Campaigns`
 
 **Key Findings**:
-- Identified overly technical language in setup instructions
-- Suggested additional code examples for API integration
-- Recommended restructuring for better logical flow
-- Found missing error handling documentation
+- Documentation lacks proper introduction and context for non-technical users
+- Missing comprehensive code examples and step-by-step tutorials
+- API limitation (email-only) not prominently displayed upfront
+- No error handling documentation or troubleshooting guidance
+- Structure jumps directly to technical details without explaining use cases
+- Lacks prerequisites section for proper API setup
+- Missing real-world implementation scenarios for marketing teams
 
 **Improvements Made**:
-- Simplified technical terminology
-- Added step-by-step visual guides
-- Reorganized content with clear headings
-- Included troubleshooting section
+- Added comprehensive overview section explaining API purpose and business value
+- Created step-by-step tutorial with complete request/response examples
+- Prominently displayed current limitations (email campaigns only) with roadmap
+- Included detailed error handling and troubleshooting section
+- Restructured content with logical flow: Overview → Prerequisites → Tutorial → Examples → Best Practices
+- Added practical use cases for marketing automation and system integration
+- Simplified technical language while maintaining accuracy for developer audience
 
 ### Example 2: Campaign Creation Documentation
 
-**URL Analyzed**: `https://help.moengage.com/hc/en-us/articles/...`
+**URL Analyzed**: `https://developers.moengage.com/hc/en-us/articles/27896779501332-Update-Campaigns`
 
 **Key Findings**:
-- Good overall structure but missing practical examples
-- Some sections too brief for non-technical users
-- Inconsistent tone across sections
-- Missing prerequisites information
+- API limited to updating Email campaigns only Update Campaigns - Developer Guide - MoEngage, significantly restricting functionality
+- Documentation lacks clear explanation of what campaign elements can be updated
+- Missing comprehensive examples showing before/after campaign states
+- No guidance on when campaigns can vs cannot be updated (e.g., active vs draft status)
+- Insufficient error handling documentation for update failures
+- Authentication section present but lacks context about required permissions
+- Missing validation rules for updateable parameters
 
 **Improvements Made**:
-- Expanded examples with screenshots
-- Added detailed explanations for each step
-- Standardized friendly, helpful tone
-- Created clear prerequisites section
+- Added clear limitations section highlighting email-only restriction upfront
+- Created comprehensive parameter reference showing all updateable campaign fields
+- Included step-by-step examples with request/response pairs for common update scenarios
+- Added campaign status validation rules (when updates are allowed/restricted)
+- Enhanced error handling section with common failure scenarios and solutions
+- Improved authentication guidance with specific permission requirements
+- Added best practices section for safe campaign updates without disrupting active campaigns
 
 ## 🤝 Contributing
 
